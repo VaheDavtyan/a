@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+}
+.HEAD{
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    align-items: center;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    background-color: #fff;
+    border: solid 1px #dbdbdb;
+    padding: 40px;
+    margin-left: 20px;
+}
+
+input {
+    padding: 10px;
+    border: slid 1px #9b9b9b;
+    margin-top: 10px;
+}
+
+.label {
+    padding: 10px 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    
+}
+.sam{
+    border-radius: 5px;
+    background: rgba(244, 244, 244, 0.733);
+    border: solid 1px #dbdbdb;
+}
+
+.but {
+    background-color: #27c4f5;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #27c4f5;
+    cursor: pointer;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.or1 {
+    background-color: #777;
+    height: 1px;
+    width: 120px;
+}
+
+.or2 {
+    padding: 0 15px;
+    color: #777;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.icon1 {
+    color: #385185;
+    cursor: pointer;
+}
+
+.tt {
+    padding-right: 10px;
+}
+
+.bottom {
+    padding-top: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #00376b;
+
+}
+
+.right2 {
+    display: flex;
+    justify-content: center;
+
+    width: 390px;
+    background-color: #fff;
+    border: solid 1px #9b9b9b;
+    padding: 20px;
+    margin: 20px 0 0 20px;
+}
+
+.don {
+    text-align: center;
+}
+
+b {
+    color: #27c4f5;
+    cursor: pointer;
+}
+
+.get1 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.img {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.image {
+    width: 150px;
+    cursor: pointer;
+}
+
+.image1 {
+    width: 125px;
+    cursor: pointer;
+}
+.pictureH{
+    display: flex;
+    justify-content: center;
+}
+.picture {
+    width: 60%;
+
+}
+
+.left{
+    position: relative;
+    
+}
+.left3 {
+    position: absolute;
+    left: 154px;
+    top: 28px;
+    background-image: url(./mac2.jpg);
+    width: 250px;
+    height: 540px;
+    animation: name 10s infinite;
+}
+@keyframes name{
+    0%{
+        background-image: url(./mac2.jpg);
+    }
+    25%{
+        background-image: url(./mac5.jpg);
+    }
+    50%{
+        background-image: url(./mac6.jpg);
+    }
+    75%{
+        background-image: url(./mac.jpg4.png);
+    }
+    100%{
+        background-image: url(./mac2.jpg);
+    }
+}
+.copy{
+    width: 100%;
+}
